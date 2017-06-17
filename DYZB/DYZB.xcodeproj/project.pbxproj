@@ -97,6 +97,7 @@
 		1E96E7C01EF559AE003268D0 /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				1E96E7F31EF57DD8003268D0 /* Classes */,
 				1E96E7C11EF559AE003268D0 /* AppDelegate.swift */,
 				1E96E7C31EF559AE003268D0 /* ViewController.swift */,
 				1E96E7C51EF559AF003268D0 /* Main.storyboard */,
@@ -123,6 +124,61 @@
 				1E96E7E31EF559AF003268D0 /* Info.plist */,
 			);
 			path = DYZBUITests;
+			sourceTree = "<group>";
+		};
+		1E96E7F31EF57DD8003268D0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1E96E7F71EF57DD8003268D0 /* Main */,
+				1E96E7F51EF57DD8003268D0 /* Home */,
+				1E96E7F61EF57DD8003268D0 /* Live */,
+				1E96E7F41EF57DD8003268D0 /* Follow */,
+				1E96E7F81EF57DD8003268D0 /* Profile */,
+				1E96E7F91EF57DD8003268D0 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1E96E7F41EF57DD8003268D0 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		1E96E7F51EF57DD8003268D0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1E96E7F61EF57DD8003268D0 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		1E96E7F71EF57DD8003268D0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1E96E7F81EF57DD8003268D0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1E96E7F91EF57DD8003268D0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
