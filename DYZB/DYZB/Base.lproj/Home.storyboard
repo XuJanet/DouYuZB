@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aDi-dG-2iv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--我的-->
+        <!--首页-->
         <scene sceneID="dcJ-IU-8Zh">
             <objects>
-                <viewController title="我的" id="kLW-9M-rrs" sceneMemberID="viewController">
+                <viewController title="首页" id="kLW-9M-rrs" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hHH-WJ-zfd"/>
                         <viewControllerLayoutGuide type="bottom" id="MP6-sK-AUe"/>
@@ -18,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="oFt-Lr-j4P"/>
+                    <navigationItem key="navigationItem" title="首页" id="oFt-Lr-j4P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8ce-W8-BkZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -28,10 +31,9 @@
         <scene sceneID="iKH-hT-8e0">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aDi-dG-2iv" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" id="xN7-64-Rdb"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="btn_home_normal" id="xN7-64-Rdb"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="e5O-bX-atV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -43,7 +45,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1e9-G7-6je" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-519.20000000000005" y="-618.44077961019491"/>
+            <point key="canvasLocation" x="-556" y="-618"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn_home_normal" width="24" height="24"/>
+    </resources>
 </document>
