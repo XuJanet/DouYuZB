@@ -31,7 +31,7 @@
         <scene sceneID="0RY-ZP-PKm">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pcV-Zw-CSa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="直播" image="btn_column_normal" id="pGR-Gj-VTp"/>
+                    <tabBarItem key="tabBarItem" title="直播" image="btn_column_normal" selectedImage="btn_column_selected" id="pGR-Gj-VTp"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bsJ-ye-QTr">
@@ -50,5 +50,6 @@
     </scenes>
     <resources>
         <image name="btn_column_normal" width="24" height="24"/>
+        <image name="btn_column_selected" width="24" height="24"/>
     </resources>
 </document>

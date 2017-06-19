@@ -11,7 +11,7 @@
         <!--首页-->
         <scene sceneID="dcJ-IU-8Zh">
             <objects>
-                <viewController title="首页" id="kLW-9M-rrs" sceneMemberID="viewController">
+                <viewController title="首页" id="kLW-9M-rrs" customClass="HomeViewController" customModule="DYZB" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hHH-WJ-zfd"/>
                         <viewControllerLayoutGuide type="bottom" id="MP6-sK-AUe"/>
@@ -21,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="首页" id="oFt-Lr-j4P"/>
+                    <navigationItem key="navigationItem" id="oFt-Lr-j4P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8ce-W8-BkZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -31,7 +31,7 @@
         <scene sceneID="iKH-hT-8e0">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aDi-dG-2iv" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" image="btn_home_normal" id="xN7-64-Rdb"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="btn_home_normal" selectedImage="btn_home_selected" id="xN7-64-Rdb"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="e5O-bX-atV">
@@ -50,5 +50,6 @@
     </scenes>
     <resources>
         <image name="btn_home_normal" width="24" height="24"/>
+        <image name="btn_home_selected" width="24" height="24"/>
     </resources>
 </document>

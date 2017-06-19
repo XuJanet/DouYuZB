@@ -31,7 +31,7 @@
         <scene sceneID="dqb-Yk-OxS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dkl-tH-Azu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我的" image="btn_user_normal" id="pdc-kU-0m4"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="btn_user_normal" selectedImage="btn_user_selected" id="pdc-kU-0m4"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iwG-48-08S">
@@ -50,5 +50,6 @@
     </scenes>
     <resources>
         <image name="btn_user_normal" width="24" height="24"/>
+        <image name="btn_user_selected" width="24" height="24"/>
     </resources>
 </document>
